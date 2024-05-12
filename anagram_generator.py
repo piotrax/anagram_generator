@@ -1,3 +1,6 @@
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Anagram generator
 # English dictionary from page: http://wiki.puzzlers.org/pub/wordlists/unixdict.txt
 

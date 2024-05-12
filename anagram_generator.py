@@ -1,5 +1,5 @@
 # Anagram generator
-# English dictionary from http://wiki.puzzlers.org/pub/wordlists/unixdict.txt
+# English dictionary from page: http://wiki.puzzlers.org/pub/wordlists/unixdict.txt
 
 def is_anagram(phrase1: str, phrase2: str) -> bool:
     '''
@@ -29,7 +29,7 @@ def anagram_generator(phrase: str, my_dict: list) -> str:
             print(word.replace('\n',''),end=', ',flush=True)
 
 
-if __name__ == '__main__':
+def main():
     from itertools import combinations
     import sys
     
@@ -48,4 +48,7 @@ if __name__ == '__main__':
     print()
     print()
     anagram_generator('layla', my_dict)
-    
+ 
+ 
+if __name__ == '__main__':
+    main()

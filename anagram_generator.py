@@ -48,9 +48,6 @@ def main():
     for item in all_combinations:
         if len(item) > 0:
             anagram_generator(item, my_dict)
-    print()
-    print()
-    anagram_generator('layla', my_dict)
  
  
 if __name__ == '__main__':
